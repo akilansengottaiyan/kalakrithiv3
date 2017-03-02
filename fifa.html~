@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="">
+<<<<<<< HEAD
   
 <!-- Mirrored from www.psgkriya.in/events/rescue.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Feb 2017 18:52:30 GMT -->
+=======
+>>>>>>> 266355ece8b51aec145378291730f88cee24b5d9
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,7 +41,11 @@
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
 	<link rel="icon" href="logo.png">
+<<<<<<< HEAD
 	<title>Event</title>
+=======
+	<title>FIFA</title>
+>>>>>>> 266355ece8b51aec145378291730f88cee24b5d9
   
   </head>
     
@@ -140,6 +147,7 @@ Participants will be given the task to detect one of the above color on the aren
 
 
 </div>
+<<<<<<< HEAD
 <!--div id="Rules" class="tabcontent">
   <h3></h3><ul>
 <li>The maximum dimension of the bot should be less than 25cmx25cmX20cm.</li>
@@ -151,6 +159,8 @@ Participants will be given the task to detect one of the above color on the aren
 <li>The live video feed of the arena will be provided to the participant only through the USB. </li>
 
 </div>
+=======
+>>>>>>> 266355ece8b51aec145378291730f88cee24b5d9
 <div id="Contact" class="tabcontent">
   <h3></h3>
   <p>Aaghash &nbspR: &nbsp9865377119<br>

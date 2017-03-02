@@ -70,7 +70,11 @@
         	margin:0;
         	}
         	#map{
+<<<<<<< HEAD
         	width:100%;
+=======
+        	max-width:90%;
+>>>>>>> 266355ece8b51aec145378291730f88cee24b5d9
         	}
         	}
         	
@@ -80,6 +84,19 @@
         margin:auto;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       }
+<<<<<<< HEAD
+=======
+      .row{
+      color:black;
+      }
+      .box{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width:90%;
+      background-color:#337ab7;;
+      margin:auto;
+      border-radius:10px;
+      }
+>>>>>>> 266355ece8b51aec145378291730f88cee24b5d9
     </style>
   
   </head>
@@ -127,9 +144,54 @@
 
 <!--h1>coming soon</h1-->
 
+<<<<<<< HEAD
 </div>
 
 
+=======
+<br \><br \><br \>
+
+</div>
+<div class="box">
+<div class="row text-center">
+<div class="col-md-6">
+<h1>PRESIDENT</h1>
+<p>Akshay Ram V</p>
+<p>+91 9626156021</p>
+</div>
+
+
+<div class="col-md-6">
+<h1>VICE-PRESIDENT</h1>
+<p>Gopikrishna B</p>
+<p>+91 9578172217</p>
+</div>
+
+</div>
+<div class="row text-center">
+
+<div class="col-md-6">
+<h1>LADY VICE-PRESIDENT</h1>
+<p>Swetha G</p>
+<p>+91 9788267622</p>
+</div>
+
+
+<div class="col-md-6">
+<h1>TREASURER</h1>
+<p>Vimal S</p>
+<p>+91 8110083052</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+</div>
+
+>>>>>>> 266355ece8b51aec145378291730f88cee24b5d9
 <br \><br \><br \>
 
 <div id="map"></div>

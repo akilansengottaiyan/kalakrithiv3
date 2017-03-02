@@ -38,7 +38,11 @@
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
 	<link rel="icon" href="logo.png">
+<<<<<<< HEAD
 	<title>Minimiltia</title>
+=======
+	<title>Minimilitia</title>
+>>>>>>> 266355ece8b51aec145378291730f88cee24b5d9
   
   </head>
     
