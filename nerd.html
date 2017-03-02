@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Web Application Manifest -->
+    <!--link rel="manifest" href="manifest.html">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+     <link rel="icon" href="logo.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <!--meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#ABABAB">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="custom.css">
+	<link rel="stylesheet" href="flickity.min.css">  
+	<title>Events</title>
+  </head>
+  <body background="img/2.jpg">
+	<div class = "no-blur-container" id = "blurcontainer">
+	
+	<!--Model-->
+	
+	</div>
+	<h1 style="font-size:40px;color:black;font-family:Casteller;text-align:center;position:fixed;padding-top:20px;color:white;">KALAKRITHI-17</h1>
+	<!--Quick-Access button -->
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>	
+	<div class="navbar-container">
+	<div class="navbar nav-black">
+		<ul>
+				<li class="white"><a href="home.html">Home</a></li> 
+                 <li class="white"><a href="mainevents.html">Events</a></li>
+                 <li class="white"><a href="schedule.html">Schedule</a></li>
+				<li class="white"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
+				<li class="white"><a href="gallery.html">Gallery</a></li>
+				<li class="white"><a href="sponsors.html">Sponsors</a></li>
+				<li class="white"><a href="about.html">About Us</a></li>
+				<li class="white"><a href="contact.html">Contact</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="glyphicon glyphicon-th-list"></span></div>
+	</div>
+	
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="home.html">Home</a></li> 
+		                 <li class="black"><a href="mainevents.html">Events</a></li>
+		                                 <li class="white"><a href="schedule.html">Schedule</a></li>
+				<li class="black"><a  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
+				<li class="white"><a href="gallery.html">Gallery</a></li>
+				<li class="black"><a href="sponsors.html">Sponsors</a></li>
+				<li class="black"><a href="about.html">About Us</a></li>
+				<li class="black"><a href="contact.html">Contact</a></li>
+			</ul>	
+	</div>
+<h4 style="font-size:50px;text-align:center;"> Nerds Section</h4>
+	<!-- start hive-container-->
+	<ul id="hive-container">
+	
+		<li class="cell">	
+			<a class="cell-content" href="spell.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">spell capsule</h1>
+				<span class="icon-airplane"></span>
+			</div>
+			</a>
+		</li>
+		
+		<li class="cell">	
+			<a class="cell-content" href="general.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">General quiz</h1>
+				<span class="icon-embed2"></span>
+			</div>
+			</a>
+		</li>
+		<li class="cell">	
+			<a class="cell-content" href="spina.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">Spinaclepore</h1>
+				<span class="icon-briefcase"></span>
+			</div>
+			</a>
+		</li>
+		<li class="cell">	
+			<a class="cell-content" href="makes.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">Makeswift</h1>
+				<span class="icon-embed2"></span>
+			</div>
+			</a>
+		</li>
+		
+		<!--li class="cell">	
+			<a class="cell-content" href="yosi.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">Maathi yosi</h1>
+				<span class="icon-power"></span>
+			</div>
+			</a>
+		</li-->
+			
+	
+  <!-- Kriya 17 Scripts-->
+	<script src="scripts/kriya.js"></script>
+
+		<script>
+$(document).ready(function(){
+    $("#dropdown-btn").click(function(){
+        $("#dropdown").fadeToggle();
+    });
+});
+</script>
+
+	<script>
+$(document).ready(function(){
+    $("#dropdown-btn").click(function(){
+        $("#dropdown").fadeToggle();
+    });
+});
+</script>
+</body>
+
+
+</html>
