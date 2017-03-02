@@ -10,14 +10,10 @@
 
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.html">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
  <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Web Starter Kit">
@@ -32,7 +28,9 @@
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="../images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#2F3BA2">
-
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Color the status bar on mobile devices -->
     <meta name="theme-color" content="#ABABAB">
 
@@ -40,12 +38,12 @@
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
 	<link rel="icon" href="logo.png">
-	<title>Game Of Thrones</title>
+	<title>Face Painting</title>
   
   </head>
     
-    <body onload="preloader()" style="background-image:url('5.jpg')">
-	 <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
+  <body onload="preloader()" style="background-image:url('5.jpg')"> 
+ <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
   <div style="position: relative">
 	<!-- Preloader div -->
 	<div class = "show-preloader" id = "preloader">
@@ -65,13 +63,12 @@
 	<div class = "no-blur-container" id = "blurcontainer">
 	
 	<!--Modal-->
-	
+
 	
 	</div>
 		
 	
 
-	<!--Quick-Access button -->
 	
 	
 	<!-- Kriya-bar -->
@@ -110,70 +107,46 @@
 	</div>
 
 	<div class="workshop-pane">
-    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Game Of Thrones<h1></div>
+    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Group Dance<h1></div>
 		<ul class="tab">
   <!--li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen"><b>About</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Description')"><b>Description</b></a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Game+Of+Thrones
-"><b>Register</b></a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Group+Dance"><b>Register</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rules')"><b>Rules</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')"><b>Contact</b></a></li>
 </ul>
 
 <div id="About" class="tabcontent">
   <h3></h3>
-  <!--p>Asteroids all over the blank black space! Amidst all those fire balls! And you would have heard it by now that two massive asteroids when they fought for their way against each other, broke themselves into pieces and burnt their way into our blue planet. It gave birth to new disasters and buildings have lost their form. Humans crying for help! Even those which can’t cry out loud, is fighting for its survival.
-<br><br>Nature is struggling to bring back its beauty. And hence we want you, Heroes! Get ready for your mission. Enter our world with your technology to help nature rescue its kids. Spot the living souls, get past the chaos, help them out, bring them back to our safe land!!
-</p-->
+  
 </div>
 
 <div id="Description" class="tabcontent">
   <h3></h3>
-  <p><b>ROUND 1</b><!--br><br>
-        The team has to send the answers for the questions asked in the TDP. The questions will be based on their understanding of the event and their techniques to solve the problem statement. The teams with the best TDP will be selected for the next round.<br><br>
-<b>ROUND 2</b><br><br>
-        The buildings with the people will be indicated by green circles. The abandoned building will be indicated by red circle. The water bodies will be indicated by blue circle.
-Participants will be given the task to detect one of the above color on the arena which will be specified by the convener at the time of starting of the event.
-	<br><br>
-<b>ROUND 3 </b><br><br>
-    The bot should rescue the people. The bot can pass through the water bodies but should not pass through the abandoned buildings. The bot need to rescue the people in the building. The rescue should be indicated by a LED light. 
-</div>
-<div id="Problem Statement" class="tabcontent">
- <p><b>ROUND 1 </b><br><br>
-	The TDP will be available on the below link:<br><a href="https://drive.google.com/file/d/0BwxWBA2IPR1xVTJkOUZyU19YRTA/view?usp=drivesdk">Click this</a><br>
-Mail the TDP to rescuemissionk17@gmail.com .
-Last date for TDP submission is 14th FEB, 2017 by 11:59 p.m.
+  Kalakrithi 2017, is a platform for passionate dance teams to evince the indelible dancing talents of their crew. The best dance teams will qualify to encaptivate the young crowd to be crowned as the ‘Kalakrithi Dance Team of the year 2017’.
+  
+  <p><b>REGISTRATION</b><br><br>
+         <li>	The teams have to present themselves at the event venue by 9A.M. for registration. All team members must be present at the time of registration. </li>
+ <li>	Slots will be allotted on ‘First come first serve basis’. </li>
+ <li>	Registrants should carry original institutional ID cards and a photocopy of the same should be submitted at the registration desk. </li>
+ <li>	Tracks/audio should not contain any offensive content. Tracks should be submitted at the registration desk.(preferably in pendrive) </li>
 <br><br>
-<b>ROUND 2 </b><br><br>	<table style="width:100%"><tr><td>Bot traversing specific circle</td><td>10 points per building</td></tr>
-       <tr><td>Bot stops on specific circle</td><td>10 points per building</td></tr> 
-       <tr><td>LED indication</td><td> 5 points per building</td></tr> 
-       <tr><td>Task completing LED indication after completing task</td><td>10 points</td></tr> 
-       <tr><td>Task completing LED indication before completing task</td><td>-5 points</td></tr> 
-       <tr><td>Time bonus</td><td>10 points for every 30 second</td></tr> </table><br><br>
-<b>ROUND 3 </b><br><br><table style="width:100%"-->
-<!--tr><td>Bot traverse through the building with people</td><td>10 points per building</td></tr>
-<tr><td>Bot stops on the building with people</td><td>10 points per building</td></tr>
-<tr><td>Rescue LED indication</td><td>5 points per building</td></tr>
-<tr><td>Bot traverse through the building without people</td><td>-5 points per building</td></tr>
-<tr><td>Task completing LED indication after completing task</td><td>10 points	</td></tr>
-<tr><td>Task completing LED indication before completing task</td><td>-5 points</td></tr>
-<tr><td>Time bonus</td><td>10 point for every 30 second</td></tr>
-</table-->
+
+ 
 
 
 </div>
-<!--div id="Rules" class="tabcontent">
+<div id="Rules" class="tabcontent">
   <h3></h3><ul>
-<li>The maximum dimension of the bot should be less than 25cmx25cmX20cm.</li>
-<li>The potential difference between any two points in the bot should be less than or equal to 12V.</li> 
-<li>The team should contain a maximum of four members.</li> 
-<li>The bot should be completely autonomous.</li>
-<li>Communication modules used in the bot can be wired or wireless.</li>
-<li>One restart will be allowed for every round. Before restart, 3 mins will be given for calibrating their code.</li>
-<li>The live video feed of the arena will be provided to the participant only through the USB. </li>
-
+<li>	The minimum number of participants in a team should be 8 and maximum should be 30. The track limit will be 4minutes and it shouldn’t exceed beyond the limit.</li>
+<li>	The teams must submit the photocopy of their ID cards to the event coordinators.</li>
+<li>	Water, inflammable and heavy objects are not allowed to be used on stage by the participating teams.</li>
+<li>	No unethical behavior will be tolerated.</li>
+<li>	The participants should take care of their own belongings. The organizing team will not take up the responsibility of it.</li>
+<li>	No rooms for changing would be provided. The participants are requested to come prepared to the venue.</li>
+<li>	Judge’s decision will be final.</li>
 </div>
-<div id="Contact" class="tabcontent">
+<!--div id="Contact" class="tabcontent">
   <h3></h3>
   <p>Aaghash &nbspR: &nbsp9865377119<br>
 		Naveen&nbsp Kumar &nbspM:&nbsp 9487176505<br>
@@ -202,11 +175,14 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
 	<script src="../scripts/kriya.js"></script>
-
-	<script>
+		<script>
 $(document).ready(function(){
     $("#dropdown-btn").click(function(){
         $("#dropdown").fadeToggle();
     });
 });
 </script>
+	</body>
+	</html>
+
+

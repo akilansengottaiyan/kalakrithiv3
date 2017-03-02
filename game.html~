@@ -10,7 +10,9 @@
 
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
-
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.html">
 
@@ -28,23 +30,20 @@
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="../images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#2F3BA2">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Color the status bar on mobile devices -->
     <meta name="theme-color" content="#ABABAB">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
-	
-	<title>Event</title>
 	<link rel="icon" href="logo.png">
+	<title>Event</title>
   
   </head>
     
-  <body onload="preloader()" style="background-image:url('5.jpg')"> 
-<h1 style="font-size:40px;color:black;font-family:Casteller;text-align:center;position:fixed;padding-top:20px;color:white;">KALAKRITHI-17</h1>
+   <body onload="preloader()" style="background-image:url('5.jpg')"> 
+ <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
   <div style="position: relative">
 	<!-- Preloader div -->
 	<div class = "show-preloader" id = "preloader">
@@ -63,7 +62,6 @@
 	<!-- Modal blur container -->
 	<div class = "no-blur-container" id = "blurcontainer">
 	
-	<!--Modal-->
 	
 	
 	</div>
@@ -71,15 +69,14 @@
 	
 
 	<!--Quick-Access button -->
-
-	
 	<!-- Kriya-bar -->
 	<!--div class="kriya-bar"></div><a style="display: none"  href="../index-2.html">
 		 
 		</a>
-		</div-->
+		</div>
 	
-		<div class="navbar-container">
+	<!-- Navbar -->
+<div class="navbar-container">
 	<div class="navbar nav-black">
 		<ul>
 				<li class="white"><a href="home.html">Home</a></li> 
@@ -98,7 +95,7 @@
 			<ul id="dropdown" class="dropdown-hide">
 				<li class="black"><a href="home.html">Home</a></li> 
 		                 <li class="black"><a href="mainevents.html">Events</a></li>
-		                  <li class="white"><a href="schedule.html">Schedule</a></li>
+		                                 <li class="white"><a href="schedule.html">Schedule</a></li>
 				<li class="black"><a  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
 				<li class="white"><a href="gallery.html">Gallery</a></li>
 				<li class="black"><a href="sponsors.html">Sponsors</a></li>
@@ -107,10 +104,9 @@
 			</ul>	
 	</div>
 
-
-
+	
 	<div class="workshop-pane">
-    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Face Painting<h1></div>
+    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">gaming events<h1></div>
 		<ul class="tab">
   <!--li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen"><b>About</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Description')"><b>Description</b></a></li>
@@ -121,39 +117,28 @@
 
 <div id="About" class="tabcontent">
   <h3></h3>
-  An artistic application of cosmetic paint to a person’s faces, indeed an event to showcase complete creativity.
+  <!--p>Asteroids all over the blank black space! Amidst all those fire balls! And you would have heard it by now that two massive asteroids when they fought for their way against each other, broke themselves into pieces and burnt their way into our blue planet. It gave birth to new disasters and buildings have lost their form. Humans crying for help! Even those which can’t cry out loud, is fighting for its survival.
+<br><br>Nature is struggling to bring back its beauty. And hence we want you, Heroes! Get ready for your mission. Enter our world with your technology to help nature rescue its kids. Spot the living souls, get past the chaos, help them out, bring them back to our safe land!!
+</p-->
 </div>
 
 <div id="Description" class="tabcontent">
   <h3></h3>
-  <p><b></b><br><br>
-       
-      An artistic application of cosmetic paint to a person’s faces, indeed an event to showcase complete creativity.
-	  </br></br>
-
-
+  <p><b>ROUND 1</b><!--br><br>
+ 
 </div>
-<div id="Rules" class="tabcontent">
+<!--div id="Rules" class="tabcontent">
   <h3></h3><ul>
- <li>Students must provide a Valid ID card.</li>
- <li>Participants can come as a team of 2 or 3. </li> 
-<li> Paints will not be provided.</li>
- <li>Theme will be given on spot.</li>
- <li>The time limit will be 60 minutes.</li>
- <li>Verbal Presentation of the face painting is allowed.</li>
- <li>Participants will be judged based on Creativity, Innovation, Colour Scheme and Design.</li>
-<li> Decision of the judges will be final and binding.</li>
-
+<li>The maximum dimension of the bot should be less than 25cmx25cmX20cm.</li>
+<li>The potential difference between any two points in the bot should be less than or equal to 12V.</li> 
+<li>The team should contain a maximum of four members.</li> 
+<li>The bot should be completely autonomous.</li>
+<li>Communication modules used in the bot can be wired or wireless.</li>
+<li>One restart will be allowed for every round. Before restart, 3 mins will be given for calibrating their code.</li>
+<li>The live video feed of the arena will be provided to the participant only through the USB. </li>
 
 </div>
 <div id="Contact" class="tabcontent">
-  <h3></h3>
-  <pre style="font-size:20px">
-Aaradhana
-8939499422
-  </pre>
-</div>
-<!--div id="Contact" class="tabcontent">
   <h3></h3>
   <p>Aaghash &nbspR: &nbsp9865377119<br>
 		Naveen&nbsp Kumar &nbspM:&nbsp 9487176505<br>
@@ -182,6 +167,7 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
 	<script src="../scripts/kriya.js"></script>
+
 		<script>
 $(document).ready(function(){
     $("#dropdown-btn").click(function(){
@@ -189,7 +175,5 @@ $(document).ready(function(){
     });
 });
 </script>
-	</body>
-	</html>
 
 

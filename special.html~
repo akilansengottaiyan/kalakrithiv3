@@ -42,7 +42,6 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="about2.css">
     <link rel="stylesheet" href="flickity1.min.css">  
-    <link rel="icon" href="logo.png">
 	<title>Special Events</title>
   </head>
   <body background="city2.jpg">

@@ -10,19 +10,17 @@
 
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.html">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
  <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Web Starter Kit">
     <link rel="icon" sizes="192x192" href="../images/touch/chrome-touch-icon-192x192.png">
-
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -40,12 +38,12 @@
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
 	<link rel="icon" href="logo.png">
-	<title>Game Of Thrones</title>
+	<title>Event</title>
   
   </head>
     
-    <body onload="preloader()" style="background-image:url('5.jpg')">
-	 <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
+   <body onload="preloader()" style="background-image:url('5.jpg')"> 
+<h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
   <div style="position: relative">
 	<!-- Preloader div -->
 	<div class = "show-preloader" id = "preloader">
@@ -73,7 +71,6 @@
 
 	<!--Quick-Access button -->
 	
-	
 	<!-- Kriya-bar -->
 	<!--div class="kriya-bar"></div><a style="display: none"  href="../index-2.html">
 		 
@@ -81,64 +78,65 @@
 		</div>
 	
 	<!-- Navbar -->
-	<div class="navbar-container">
-	<div class="navbar nav-black">
-		<ul>
-				<li class="white"><a href="home.html">Home</a></li> 
+      <div class="navbar-container">
+    <div class="navbar nav-black">
+        <ul>
+                <li class="white"><a href="home.html">Home</a></li> 
                  <li class="white"><a href="mainevents.html">Events</a></li>
                  <li class="white"><a href="schedule.html">Schedule</a></li>
-				<li class="white"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
-				<li class="white"><a href="gallery.html">Gallery</a></li>
-				<li class="white"><a href="sponsors.html">Sponsors</a></li>
-				<li class="white"><a href="about.html">About Us</a></li>
-				<li class="white"><a href="contact.html">Contact</a></li>
-		</ul>
-		<div class="navbar-hamburger" id="dropdown-btn"><span class="glyphicon glyphicon-th-list"></span></div>
-	</div>
-	
-	<!-- Mobile -->
-			<ul id="dropdown" class="dropdown-hide">
-				<li class="black"><a href="home.html">Home</a></li> 
-		                 <li class="black"><a href="mainevents.html">Events</a></li>
-		                                 <li class="white"><a href="schedule.html">Schedule</a></li>
-				<li class="black"><a  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
-				<li class="white"><a href="gallery.html">Gallery</a></li>
-				<li class="black"><a href="sponsors.html">Sponsors</a></li>
-				<li class="black"><a href="about.html">About Us</a></li>
-				<li class="black"><a href="contact.html">Contact</a></li>
-			</ul>	
-	</div>
-
-	<div class="workshop-pane">
-    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Game Of Thrones<h1></div>
+                <li class="white"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
+                <li class="white"><a href="gallery.html">Gallery</a></li>
+                <li class="white"><a href="sponsors.html">Sponsors</a></li>
+                <li class="white"><a href="about.html">About Us</a></li>
+                <li class="white"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="navbar-hamburger" id="dropdown-btn"><span class="glyphicon glyphicon-th-list"></span></div>
+    </div>
+    
+    <!-- Mobile -->
+            <ul id="dropdown" class="dropdown-hide">
+                <li class="black"><a href="home.html">Home</a></li> 
+                         <li class="black"><a href="mainevents.html">Events</a></li>
+                                         <li class="white"><a href="schedule.html">Schedule</a></li>
+                <li class="black"><a  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
+                <li class="white"><a href="gallery.html">Gallery</a></li>
+                <li class="black"><a href="sponsors.html">Sponsors</a></li>
+                <li class="black"><a href="about.html">About Us</a></li>
+                <li class="black"><a href="contact.html">Contact</a></li>
+            </ul>   
+    </div>
+<div class="workshop-pane">
+    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">variety show<h1></div>
 		<ul class="tab">
   <!--li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen"><b>About</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Description')"><b>Description</b></a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Game+Of+Thrones
-"><b>Register</b></a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><b>Register</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rules')"><b>Rules</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')"><b>Contact</b></a></li>
 </ul>
 
 <div id="About" class="tabcontent">
   <h3></h3>
-  <!--p>Asteroids all over the blank black space! Amidst all those fire balls! And you would have heard it by now that two massive asteroids when they fought for their way against each other, broke themselves into pieces and burnt their way into our blue planet. It gave birth to new disasters and buildings have lost their form. Humans crying for help! Even those which can’t cry out loud, is fighting for its survival.
-<br><br>Nature is struggling to bring back its beauty. And hence we want you, Heroes! Get ready for your mission. Enter our world with your technology to help nature rescue its kids. Spot the living souls, get past the chaos, help them out, bring them back to our safe land!!
-</p-->
+ Good at performing play, come as a team and show your skills on the stage. Kalakrithi’17 gives you the biggest opportunity to prove yourself before the legends of the cinema field. Grab the opportunity, bring the valid college ID.
+Two rounds with a prelims and finals
+
 </div>
 
 <div id="Description" class="tabcontent">
   <h3></h3>
-  <p><b>ROUND 1</b><!--br><br>
-        The team has to send the answers for the questions asked in the TDP. The questions will be based on their understanding of the event and their techniques to solve the problem statement. The teams with the best TDP will be selected for the next round.<br><br>
-<b>ROUND 2</b><br><br>
-        The buildings with the people will be indicated by green circles. The abandoned building will be indicated by red circle. The water bodies will be indicated by blue circle.
-Participants will be given the task to detect one of the above color on the arena which will be specified by the convener at the time of starting of the event.
+ 
+ Good at performing play, come as a team and show your skills on the stage. Kalakrithi’17 gives you the biggest opportunity to prove yourself before the legends of the cinema field. Grab the opportunity, bring the valid college ID.
+Two rounds with a prelims and finals
+  
+  <p><b>TEAM SIZE</b><br><br>
+      8-20 (Including all music accompanists)<br><br>
+<b>TEAM LIMIT</b><br><br>
+     12-20 minutes (including setup and clearance time i.e. empty stage to empty stage)                        
 	<br><br>
-<b>ROUND 3 </b><br><br>
-    The bot should rescue the people. The bot can pass through the water bodies but should not pass through the abandoned buildings. The bot need to rescue the people in the building. The rescue should be indicated by a LED light. 
+<b>JUDGING CRITERIA: </b><br><br>
+    Acting (facial expressions, body posture/ movement), Voice modulation and dictation, Crowd interaction and Overall impact 
 </div>
-<div id="Problem Statement" class="tabcontent">
+<!--div id="Problem Statement" class="tabcontent">
  <p><b>ROUND 1 </b><br><br>
 	The TDP will be available on the below link:<br><a href="https://drive.google.com/file/d/0BwxWBA2IPR1xVTJkOUZyU19YRTA/view?usp=drivesdk">Click this</a><br>
 Mail the TDP to rescuemissionk17@gmail.com .
@@ -161,19 +159,22 @@ Last date for TDP submission is 14th FEB, 2017 by 11:59 p.m.
 </table-->
 
 
-</div>
-<!--div id="Rules" class="tabcontent">
+<!--/div-->
+<div id="Rules" class="tabcontent">
   <h3></h3><ul>
-<li>The maximum dimension of the bot should be less than 25cmx25cmX20cm.</li>
-<li>The potential difference between any two points in the bot should be less than or equal to 12V.</li> 
-<li>The team should contain a maximum of four members.</li> 
-<li>The bot should be completely autonomous.</li>
-<li>Communication modules used in the bot can be wired or wireless.</li>
-<li>One restart will be allowed for every round. Before restart, 3 mins will be given for calibrating their code.</li>
-<li>The live video feed of the arena will be provided to the participant only through the USB. </li>
+<li>Prelims will be conducted in the auditorium before the audiences and judges.</li>
+<li>Teams selected for the finals will be performing at an open air venue.</li>
+<li> Any kind of fluids, live animals, flame, heavy objects or any other material which has a possibility of damaging the stage is STRICTLY not allowed.</li>
+ <li>Inappropriate content, blasphemy or content defaming any political party or religious group is STRICTLY prohibited and may lead to disqualification.</li>
+ <li>Playing recorded music using mobile phones or tapes is not allowed.</li>
+<li> Exceeding the time limit will result in disqualification.</li>
+<li> The decision of the judges will be final and binding.</li>
+
+
+
 
 </div>
-<div id="Contact" class="tabcontent">
+<!--div id="Contact" class="tabcontent">
   <h3></h3>
   <p>Aaghash &nbspR: &nbsp9865377119<br>
 		Naveen&nbsp Kumar &nbspM:&nbsp 9487176505<br>
@@ -202,7 +203,6 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
 	<script src="../scripts/kriya.js"></script>
-
 	<script>
 $(document).ready(function(){
     $("#dropdown-btn").click(function(){
@@ -210,3 +210,4 @@ $(document).ready(function(){
     });
 });
 </script>
+

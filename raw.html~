@@ -10,19 +10,17 @@
 
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.html">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
  <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Web Starter Kit">
     <link rel="icon" sizes="192x192" href="../images/touch/chrome-touch-icon-192x192.png">
-
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -40,12 +38,12 @@
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
 	<link rel="icon" href="logo.png">
-	<title>Game Of Thrones</title>
+	<title>WWE RAW</title>
   
   </head>
     
-    <body onload="preloader()" style="background-image:url('5.jpg')">
-	 <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
+  <body onload="preloader()" style="background-image:url('5.jpg')"> 
+ <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
   <div style="position: relative">
 	<!-- Preloader div -->
 	<div class = "show-preloader" id = "preloader">
@@ -66,13 +64,12 @@
 	
 	<!--Modal-->
 	
-	
 	</div>
 		
 	
 
 	<!--Quick-Access button -->
-	
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
 	
 	<!-- Kriya-bar -->
 	<!--div class="kriya-bar"></div><a style="display: none"  href="../index-2.html">
@@ -110,12 +107,11 @@
 	</div>
 
 	<div class="workshop-pane">
-    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Game Of Thrones<h1></div>
+    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Raw wwe<h1></div>
 		<ul class="tab">
   <!--li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen"><b>About</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Description')"><b>Description</b></a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Game+Of+Thrones
-"><b>Register</b></a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=WWE-RAW"><<b>Register</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rules')"><b>Rules</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')"><b>Contact</b></a></li>
 </ul>
@@ -136,41 +132,14 @@
 Participants will be given the task to detect one of the above color on the arena which will be specified by the convener at the time of starting of the event.
 	<br><br>
 <b>ROUND 3 </b><br><br>
-    The bot should rescue the people. The bot can pass through the water bodies but should not pass through the abandoned buildings. The bot need to rescue the people in the building. The rescue should be indicated by a LED light. 
-</div>
-<div id="Problem Statement" class="tabcontent">
- <p><b>ROUND 1 </b><br><br>
-	The TDP will be available on the below link:<br><a href="https://drive.google.com/file/d/0BwxWBA2IPR1xVTJkOUZyU19YRTA/view?usp=drivesdk">Click this</a><br>
-Mail the TDP to rescuemissionk17@gmail.com .
-Last date for TDP submission is 14th FEB, 2017 by 11:59 p.m.
-<br><br>
-<b>ROUND 2 </b><br><br>	<table style="width:100%"><tr><td>Bot traversing specific circle</td><td>10 points per building</td></tr>
-       <tr><td>Bot stops on specific circle</td><td>10 points per building</td></tr> 
-       <tr><td>LED indication</td><td> 5 points per building</td></tr> 
-       <tr><td>Task completing LED indication after completing task</td><td>10 points</td></tr> 
-       <tr><td>Task completing LED indication before completing task</td><td>-5 points</td></tr> 
-       <tr><td>Time bonus</td><td>10 points for every 30 second</td></tr> </table><br><br>
-<b>ROUND 3 </b><br><br><table style="width:100%"-->
-<!--tr><td>Bot traverse through the building with people</td><td>10 points per building</td></tr>
-<tr><td>Bot stops on the building with people</td><td>10 points per building</td></tr>
-<tr><td>Rescue LED indication</td><td>5 points per building</td></tr>
-<tr><td>Bot traverse through the building without people</td><td>-5 points per building</td></tr>
-<tr><td>Task completing LED indication after completing task</td><td>10 points	</td></tr>
-<tr><td>Task completing LED indication before completing task</td><td>-5 points</td></tr>
-<tr><td>Time bonus</td><td>10 point for every 30 second</td></tr>
+ 
 </table-->
 
 
 </div>
 <!--div id="Rules" class="tabcontent">
   <h3></h3><ul>
-<li>The maximum dimension of the bot should be less than 25cmx25cmX20cm.</li>
-<li>The potential difference between any two points in the bot should be less than or equal to 12V.</li> 
-<li>The team should contain a maximum of four members.</li> 
-<li>The bot should be completely autonomous.</li>
-<li>Communication modules used in the bot can be wired or wireless.</li>
-<li>One restart will be allowed for every round. Before restart, 3 mins will be given for calibrating their code.</li>
-<li>The live video feed of the arena will be provided to the participant only through the USB. </li>
+
 
 </div>
 <div id="Contact" class="tabcontent">
@@ -203,10 +172,14 @@ document.getElementById("defaultOpen").click();
 </script>
 	<script src="../scripts/kriya.js"></script>
 
-	<script>
+		<script>
 $(document).ready(function(){
     $("#dropdown-btn").click(function(){
         $("#dropdown").fadeToggle();
     });
 });
 </script>
+	</body>
+	</html>
+
+

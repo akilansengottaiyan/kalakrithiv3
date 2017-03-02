@@ -42,8 +42,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="about2.css">
     <link rel="stylesheet" href="flickity1.min.css">  
-    <link rel="icon" href="logo.png">
-	<title>Special Events</title>
+	<title>Events</title>
   </head>
   <body background="city2.jpg">
   <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
@@ -61,63 +60,64 @@
 	<!--Quick-Access button -->
 		
 	<div class="navbar-container">
-    <div class="navbar nav-black">
-        <ul>
-                <li class="white"><a href="home.html">Home</a></li> 
+	<div class="navbar nav-black">
+		<ul>
+				<li class="white"><a href="home.html">Home</a></li> 
                  <li class="white"><a href="mainevents.html">Events</a></li>
                  <li class="white"><a href="schedule.html">Schedule</a></li>
-                <li class="white"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
-                <li class="white"><a href="gallery.html">Gallery</a></li>
-                <li class="white"><a href="sponsors.html">Sponsors</a></li>
-                <li class="white"><a href="about.html">About Us</a></li>
-                <li class="white"><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="navbar-hamburger" id="dropdown-btn"><span class="glyphicon glyphicon-th-list"></span></div>
-    </div>
-    
-    <!-- Mobile -->
-            <ul id="dropdown" class="dropdown-hide">
-                <li class="black"><a href="home.html">Home</a></li> 
-                         <li class="black"><a href="mainevents.html">Events</a></li>
-                                         <li class="white"><a href="schedule.html">Schedule</a></li>
-                <li class="black"><a  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
-                <li class="white"><a href="gallery.html">Gallery</a></li>
-                <li class="black"><a href="sponsors.html">Sponsors</a></li>
-                <li class="black"><a href="about.html">About Us</a></li>
-                <li class="black"><a href="contact.html">Contact</a></li>
-            </ul>   
-    </div>
-<!-- start hive-container-->
+				<li class="white"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
+				<li class="white"><a href="gallery.html">Gallery</a></li>
+				<li class="white"><a href="sponsors.html">Sponsors</a></li>
+				<li class="white"><a href="about.html">About Us</a></li>
+				<li class="white"><a href="contact.html">Contact</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="glyphicon glyphicon-th-list"></span></div>
+	</div>
+	
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="home.html">Home</a></li> 
+		                 <li class="black"><a href="mainevents.html">Events</a></li>
+		                                 <li class="white"><a href="schedule.html">Schedule</a></li>
+				<li class="black"><a  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
+				<li class="white"><a href="gallery.html">Gallery</a></li>
+				<li class="black"><a href="sponsors.html">Sponsors</a></li>
+				<li class="black"><a href="about.html">About Us</a></li>
+				<li class="black"><a href="contact.html">Contact</a></li>
+			</ul>	
+	</div>
+
+	<!-- start hive-container-->
 <ul id="hive-container">
 		
 		<li class="cell">	
-			<a class="cell-content" href="sherlock.html">
-			<div class="cell-content-icon"><h1 style="font-family: technic">Sherlock</h1>
-				<span class="glyphicon glyphicon-sound-dolby"></span>
+			<a class="cell-content" href="fifa.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">FIFA</h1>
+				<span class="glyphicon glyphicon-gbp"></span>
 			</div>
 			</a>
 		</li>
 		
 		<li class="cell">	
-			<a class="cell-content" href="battle.html">
-			<div class="cell-content-icon"><h1 style="font-family: technic">Battle of bands</h1>
-				<span class="glyphicon glyphicon-bold"></span>
-			</div>
-			</a>
-		</li>
-		
-		<li class="cell">	
-			<a class="cell-content" href="got.html">
-			<div class="cell-content-icon"><h1 style="font-family: technic">Game of thrones</h1>
+			<a class="cell-content" href="raw.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">WWE - RAW</h1>
 				<span class="glyphicon glyphicon-star-empty"></span>
 			</div>
 			</a>
 		</li>
 		
 		<li class="cell">	
-			<a class="cell-content" href="tales.html">
-			<div class="cell-content-icon"><h1 style="font-family: technic">Tale of tales</h1>
-				<span class="glyphicon glyphicon-arrow-up"></span>
+			<a class="cell-content" href="mini.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">Mini Militia</h1>
+				<span class="glyphicon glyphicon-filter"></span>
+			</div>
+			</a>
+		</li>
+		
+		<li class="cell">	
+			<a class="cell-content" href="nfs.html">
+			<div class="cell-content-icon"><h1 style="font-family: technic">NFS</h1>
+				<span class="glyphicon glyphicon-play-circle"></span>
 			</div>
 			</a>
 		</li>
@@ -129,6 +129,7 @@
 	
   <!-- Kriya 17 Scripts-->
 	<script src="scripts/kriya.js"></script>
+
 		<script>
 $(document).ready(function(){
     $("#dropdown-btn").click(function(){

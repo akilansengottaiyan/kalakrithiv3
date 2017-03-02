@@ -15,9 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.html">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
  <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Web Starter Kit">
@@ -40,12 +38,12 @@
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
 	<link rel="icon" href="logo.png">
-	<title>Game Of Thrones</title>
+	<title>Event</title>
   
   </head>
     
-    <body onload="preloader()" style="background-image:url('5.jpg')">
-	 <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
+  <body onload="preloader()" style="background-image:url('5.jpg')"> 
+ <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
   <div style="position: relative">
 	<!-- Preloader div -->
 	<div class = "show-preloader" id = "preloader">
@@ -66,13 +64,11 @@
 	
 	<!--Modal-->
 	
-	
-	</div>
 		
-	
+	</div>
 
 	<!--Quick-Access button -->
-	
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
 	
 	<!-- Kriya-bar -->
 	<!--div class="kriya-bar"></div><a style="display: none"  href="../index-2.html">
@@ -110,12 +106,11 @@
 	</div>
 
 	<div class="workshop-pane">
-    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Game Of Thrones<h1></div>
+    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Gully Cricket<h1></div>
 		<ul class="tab">
   <!--li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen"><b>About</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Description')"><b>Description</b></a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Game+Of+Thrones
-"><b>Register</b></a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><b>Register</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rules')"><b>Rules</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')"><b>Contact</b></a></li>
 </ul>
@@ -202,11 +197,14 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
 	<script src="../scripts/kriya.js"></script>
-
-	<script>
+		<script>
 $(document).ready(function(){
     $("#dropdown-btn").click(function(){
         $("#dropdown").fadeToggle();
     });
 });
 </script>
+	</body>
+	</html>
+
+

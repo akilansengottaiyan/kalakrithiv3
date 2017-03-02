@@ -13,14 +13,14 @@
 
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.html">
-
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
  <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Web Starter Kit">
     <link rel="icon" sizes="192x192" href="../images/touch/chrome-touch-icon-192x192.png">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -38,12 +38,12 @@
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
 	<link rel="icon" href="logo.png">
-	<title>Event</title>
+	<title>Spell Capsule</title>
   
   </head>
     
- <body onload="preloader()" style="background-image:url('5.jpg')"> 
-<h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
+  <body onload="preloader()" style="background-image:url('5.jpg')"> 
+ <h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
   <div style="position: relative">
 	<!-- Preloader div -->
 	<div class = "show-preloader" id = "preloader">
@@ -59,17 +59,23 @@
 		}
 	</script>	
   
+	
 	<!-- Modal blur container -->
 	<div class = "no-blur-container" id = "blurcontainer">
-	
+
 	<!--Modal-->
-	
+	<div class = "hide-modal" id = "quick-access"><div class="menu-container">
+		<div class = "user-display">Welcome <span></span></div>
+		<div class="menuHeading" ><a href="https://ecampus.psgtech.ac.in/kriyalogin/" style="text-decoration:none;color:white">LOGIN</a></div>
+		<div class="menuHeading"><a href="faq.html" style="text-decoration:none;color:white">FAQ</a></div>
+	</div></div>
 	
 	</div>
-		
-	
+			
 
 	<!--Quick-Access button -->
+	<div class="quick-access-button" id="quick-access-button"><span style="font-size: 40px" class="icon-plus"></div>
+	
 	
 	<!-- Kriya-bar -->
 	<!--div class="kriya-bar"></div><a style="display: none"  href="../index-2.html">
@@ -78,7 +84,7 @@
 		</div>
 	
 	<!-- Navbar -->
-<div class="navbar-container">
+	<div class="navbar-container">
     <div class="navbar nav-black">
         <ul>
                 <li class="white"><a href="home.html">Home</a></li> 
@@ -105,87 +111,72 @@
                 <li class="black"><a href="contact.html">Contact</a></li>
             </ul>   
     </div>
-	<div class="workshop-pane">
-    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">maathiyosi<h1></div>
+<div class="workshop-pane">
+    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">spell capsule<h1></div>
 		<ul class="tab">
   <!--li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen"><b>About</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Description')"><b>Description</b></a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Maathiyosi
-"><b>Register</b></a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Spell+Capsule
+"><b>Register</b></a></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rules')"><b>Rules</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')"><b>Contact</b></a></li>
 </ul>
 
-<div id="About" class="tabcontent">
+<div id="Description" class="tabcontent">
   <h3></h3>
-  Three round event, a popular TV game is now a part of Kalakrithi’17. Though it seems easy, the game tests your patience and intelligence. Participants should carry a valid ID card.
+  <!--p>Asteroids all over the blank black space! Amidst all those fire balls! And you would have heard it by now that two massive asteroids when they fought for their way against each other, broke themselves into pieces and burnt their way into our blue planet. It gave birth to new disasters and buildings have lost their form. Humans crying for help! Even those which can’t cry out loud, is fighting for its survival.
+<br><br>Nature is struggling to bring back its beauty. And hence we want you, Heroes! Get ready for your mission. Enter our world with your technology to help nature rescue its kids. Spot the living souls, get past the chaos, help them out, bring them back to our safe land!!
+</p-->
+<p>
+
+Words be your favourite plaything, word games be your indulgence and even at the most inappropriate of times, going” 
+Yes! That’s the word, that’s the spell !” be your defining trait, 
+you might as well put it to test at Kalakrithi’s “ Spell capsule!... Regale your spells” Register to dandle your tongue…..
 
 
+
+</p>
 </div>
 
-<div id="Description" class="tabcontent">
-  <h3>
-    <h3></h3>
-  Three round event, a popular TV game is now a part of Kalakrithi’17. Though it seems easy, the game tests your patience and intelligence. Participants should carry a valid ID card.
-  </h3>
+<div id="Rules" class="tabcontent">
+  <h3></h3>
   <p><b>ROUND 1</b><br><br>
-         Maathi yosi is a fun game where the participant has to provide completely unrelated answer to each question posed by the host<br><br>
+  Jumble-Tumble:
+                   A game to indulge your word power by rearranging the word to its appropriate form and spell.<br><br>
 <b>ROUND 2</b><br><br>
-       There are many times when one needs to be witty, persuasive,cunning and evasive!! Well we provide you a stage to display your expertise in such diverse conditions and emerge as the bluff master.
+Connect your spells:
+      A game to provoke your visualizing and correlating skills.
 	<br><br>
 <b>ROUND 3 </b><br><br>
-    In this event, a participant should speak for a minute on the topic, trying not to break a dozen rules while he/she has 5 other players waiting to pounce on half a mistake, so that they can speak. 
-
+Connect your spells:
+                Try out our speller to bob your tongue.
+.   
 
 </div>
 <!--div id="Problem Statement" class="tabcontent">
  <p><b>ROUND 1 </b><br><br>
-	The TDP will be available on the below link:<br><a href="https://drive.google.com/file/d/0BwxWBA2IPR1xVTJkOUZyU19YRTA/view?usp=drivesdk">Click this</a><br>
-Mail the TDP to rescuemissionk17@gmail.com .
-Last date for TDP submission is 14th FEB, 2017 by 11:59 p.m.
-<br><br>
-<b>ROUND 2 </b><br><br>	<table style="width:100%"><tr><td>Bot traversing specific circle</td><td>10 points per building</td></tr>
-       <tr><td>Bot stops on specific circle</td><td>10 points per building</td></tr> 
-       <tr><td>LED indication</td><td> 5 points per building</td></tr> 
-       <tr><td>Task completing LED indication after completing task</td><td>10 points</td></tr> 
-       <tr><td>Task completing LED indication before completing task</td><td>-5 points</td></tr> 
-       <tr><td>Time bonus</td><td>10 points for every 30 second</td></tr> </table><br><br>
-<b>ROUND 3 </b><br><br><table style="width:100%"-->
-<!--tr><td>Bot traverse through the building with people</td><td>10 points per building</td></tr>
-<tr><td>Bot stops on the building with people</td><td>10 points per building</td></tr>
-<tr><td>Rescue LED indication</td><td>5 points per building</td></tr>
-<tr><td>Bot traverse through the building without people</td><td>-5 points per building</td></tr>
-<tr><td>Task completing LED indication after completing task</td><td>10 points	</td></tr>
-<tr><td>Task completing LED indication before completing task</td><td>-5 points</td></tr>
-<tr><td>Time bonus</td><td>10 point for every 30 second</td></tr>
-</table-->
 
 
-<!--/div-->
-<div id="Rules" class="tabcontent">
-  <h3>round 1</h3><ul>
-     <li>Should not give the same answer.</li>
-	<li>Should not say the same word thrice.</li>
-	<li>Should not ask questions to the host.</li>
-	<li>Should not take more than 3 seconds to answer.</li>
-	<li>Should sustain for complete 2 minutes to get to the next round.</li>
-	<li>Can answer either in English or Tamil. </li>
-<h4>round 2</h4><ul>
-	 <li>Only individual participants are allowed.</li>
-	<li>Answers provided must be to the point..</li>
-	<li>The participants are not allowed to talk to each other during the event..</li>
-	<li>The participants must not take more than 10 seconds to answer the question..</li>
-	<li>The participants are not allowed to question the host..</li>
-	<li>The participant must not repeat the same word / answer twice.</li>
-<h5>round 3</h5><ul>
 
-	<li>The Jammers are challenged to speak for one minute on a given subject without repetition,  hesitation or deviation.</li>  
-	<li>Hesitation is watched very strictly. </li>
-	<li>Deviation means deviating from the subject (ie) deviating from the truth. </li>
-	<li>A Jammer scores a point for making a correct challenge against whomever is speaking, while the speaker gets a point if the challenge is deemed incorrect. </li>
-	<li>A Speaker also scores a point if they are the person speaking when the 60 seconds expires. </li>
+</div-->
+<div id="About" class="tabcontent">
+  <h3></h3><ul>
+<li>EVENT STRUCTURE:</li>
+<li>A group of 2 members per team.</li>
+	<li>Selection based on prelims </li>
+	</ul></div>
+	<div id="Contact" class="tabcontent">
+  <h3></h3>
+  <pre style="font-size:20px">
+Balaji 
+9094888080
+  </pre>
 </div>
-<!--div id="Contact" class="tabcontent">
+<!--li>The potential difference between any two points in the bot should be less than or equal to 12V.</li> 
+<
+
+</div>
+<div id="Contact" class="tabcontent">
   <h3></h3>
   <p>Aaghash &nbspR: &nbsp9865377119<br>
 		Naveen&nbsp Kumar &nbspM:&nbsp 9487176505<br>
@@ -214,12 +205,14 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
 	<script src="../scripts/kriya.js"></script>
-
-
-	<script>
+		<script>
 $(document).ready(function(){
     $("#dropdown-btn").click(function(){
         $("#dropdown").fadeToggle();
     });
 });
 </script>
+	</body>
+	</html>
+
+

@@ -10,9 +10,7 @@
 
     <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.html">
 
@@ -26,7 +24,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
     <link rel="apple-touch-icon" href="../images/touch/apple-touch-icon.png">
-
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="../images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#2F3BA2">
@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="custom.css">
 	<link rel="stylesheet" href="flickity.min.css">  
 	<link rel="icon" href="logo.png">
-	<title>Hunger</title>
+	<title>Rangoli</title>
   
   </head>
     
@@ -106,35 +106,28 @@
 			</ul>	
 	</div>
 	<div class="workshop-pane">
-    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px">Hunger Game<h1></div>
+    		<div class="workshop-title"><h1 style="text-decoration: none; font-size: 30px"Rangoli</h1></div>
 		<ul class="tab">
   <!--li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'About')" id="defaultOpen"><b>About</b></a></li-->
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Description')"><b>Description</b></a></li>
-  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Hunger+Game"><b>Register</b></a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Problem Statement')"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd0YsgqDQh1GPOPg2xiy4F6Jw5hTYwAAERaGlk8mcqfPWdKNQ/viewform?entry.908406632&entry.1675532968&entry.1716803339&entry.915723957=Rangoli"><b>Register</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Rules')"><b>Rules</b></a></li>
   <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Contact')"><b>Contact</b></a></li>
 </ul>
 
 <div id="About" class="tabcontent">
   <h3></h3>
-  Three round event, a popular TV game is now a part of Kalakrithi’17. Though it seems easy, the game tests your patience and intelligence. Participants should carry a valid ID card.
-
-
 </div>
 
-<!--div id="Description" class="tabcontent">
+<div id="Description" class="tabcontent">
   <h3>
     <h3></h3>
-  Three round event, a popular TV game is now a part of Kalakrithi’17. Though it seems easy, the game tests your patience and intelligence. Participants should carry a valid ID card.
   </h3>
   <p><b>ROUND 1</b><br><br>
-         Maathi yosi is a fun game where the participant has to provide completely unrelated answer to each question posed by the host<br><br>
 <b>ROUND 2</b><br><br>
-       There are many times when one needs to be witty, persuasive,cunning and evasive!! Well we provide you a stage to display your expertise in such diverse conditions and emerge as the bluff master.
-	<br><br>
+ 	<br><br>
 <b>ROUND 3 </b><br><br>
-    In this event, a participant should speak for a minute on the topic, trying not to break a dozen rules while he/she has 5 other players waiting to pounce on half a mistake, so that they can speak. 
-
+ 
 
 </div>
 <!--div id="Problem Statement" class="tabcontent">
@@ -184,6 +177,13 @@ Last date for TDP submission is 14th FEB, 2017 by 11:59 p.m.
 	<li>A Jammer scores a point for making a correct challenge against whomever is speaking, while the speaker gets a point if the challenge is deemed incorrect. </li>
 	<li>A Speaker also scores a point if they are the person speaking when the 60 seconds expires. </li>
 </div>
+<div id="Contact" class="tabcontent">
+  <h3></h3>
+  <pre style="font-size:20px">
+  Jayaroobini
+   8939883494
+  </pre>
+</div>
 <!--div id="Contact" class="tabcontent">
   <h3></h3>
   <p>Aaghash &nbspR: &nbsp9865377119<br>
@@ -194,6 +194,13 @@ Last date for TDP submission is 14th FEB, 2017 by 11:59 p.m.
 </div>
 	</div>
   <!-- Kriya 17 Scripts-->
+  <div id="Contact" class="tabcontent">
+  <h3></h3>
+  <pre style="font-size:20px">
+Sabitha 
+9043732151
+  </pre>
+</div>
   <script>
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
@@ -213,11 +220,12 @@ function openCity(evt, cityName) {
 document.getElementById("defaultOpen").click();
 </script>
 	<script src="../scripts/kriya.js"></script>
-
-	<script>
+		<script>
 $(document).ready(function(){
     $("#dropdown-btn").click(function(){
         $("#dropdown").fadeToggle();
     });
 });
 </script>
+
+
