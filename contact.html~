@@ -70,7 +70,7 @@
         	margin:0;
         	}
         	#map{
-        	max-width:90%;
+        	width:100%;
         	}
         	}
         	
