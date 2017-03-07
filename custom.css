@@ -2600,7 +2600,9 @@ ul.tab li a:hover {
 ul.tab li a:focus, .active {
     background-color: #ccc;
 }
-
+#Description{
+display:block;
+}
 /* Style the tab content */
 .tabcontent {
     display: none;
