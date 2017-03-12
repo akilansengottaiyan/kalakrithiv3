@@ -1,0 +1,134 @@
+<html>
+<head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+<link rel="icon" href="logo.png">
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.html">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+ <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" sizes="192x192" href="../images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="../images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="../images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <meta name="theme-color" content="#ABABAB">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="about2.css">
+	<link rel="stylesheet" href="flickity1.min.css">  
+	<title>Schedule</title>
+    <style type="text/css">
+        p{
+            font-size:20px;
+            margin-bottom: 10px;
+        }
+        .text-center{
+            width:90%;
+            margin: auto;
+        }
+        h2{
+            color:#ebccd1;
+        }
+        hr{
+            width:5%;
+            border-top: 5px solid #eeeeee;
+        }
+    </style>
+  
+  </head>
+    
+
+</head>
+<body background="images1.jpg">
+<h2 class="text-center" style="font-family:verdana;color:white">KALAKRITHI'17</h2>
+<div class="navbar-container">
+	<div class="navbar nav-black">
+		<ul>
+				<li class="white"><a href="home.html">Home</a></li> 
+                 <li class="white"><a href="mainevents.html">Events</a></li>
+                 <li class="white"><a href="schedule.html">Schedule</a></li>
+				<li class="white"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
+				<li class="white"><a href="gallery.html">Gallery</a></li>
+				<li class="white"><a href="sponsors.html">Sponsors</a></li>
+				<li class="white"><a href="about.html">About Us</a></li>
+				<li class="white"><a href="contact.html">Contact</a></li>
+		</ul>
+		<div class="navbar-hamburger" id="dropdown-btn"><span class="glyphicon glyphicon-th-list"></span></div>
+	</div>
+	
+	<!-- Mobile -->
+			<ul id="dropdown" class="dropdown-hide">
+				<li class="black"><a href="home.html">Home</a></li> 
+		                 <li class="black"><a href="mainevents.html">Events</a></li>
+                <li class="white"><a href="schedule.html">Schedule</a></li>
+				<li class="black"><a  target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeUNAC3sMYkXdg2plLs8MGarhYCK2ZMbtqYI2Q5dYvJ3Ydg_w/viewform">Register</a></li>
+				<li class="white"><a href="gallery.html">Gallery</a></li>
+				<li class="black"><a href="sponsors.html">Sponsors</a></li>
+				<li class="black"><a href="about.html">About Us</a></li>
+				<li class="black"><a href="contact.html">Contact</a></li>
+			</ul>	
+	</div>
+
+<h2 class="text-center">ABOUT US</h2>
+<hr>
+
+<div class="text-center">
+<img src="kk.jpg" width="100%" height="450px">
+
+  <p >
+  <b>Kalakrithi is an annual inter college cultural festival organised by the students of Alagappa College of Technology, Anna University, Chennai. The event was started in 1985.
+<p> 
+<p> It is a Three-day celebration of art, music and life. The highlight is the philanthropic motto students carry every year initiated with ORGAN DONATION, BLOOD DONATION and many social awareness programs where young students actively involve and dedicate themselves 
+which was highly appreciated by well-known politicians and activists.  </p>
+<p>Kalakrithi is organised by the STUDENTS ASSOCIATION AND ARTS SOCIETY (SAAS), Alagappa College of Technology.
+ <p>
+ <p>It is a student-run organisation committed towards nurturing and portraying various forms of art.</p>
+<p> The officebearers of SAAS are elected annually by the students of ACT.  </p>
+<p>This is more than fun To K17 that it pays tribute to a 350 year old city form 20 year old students.</p> 
+<p>Since its inception in 1985 this event has snowballed to become one of the biggest fests of India. </p>
+<p>Be it cultural competitions, concert, Rock show, enlightening panel discussion, talks and workshops, engaging in formulas, personality contests, DJ nigh, Kalakrithi is a melance with something for everyone
+  </b>
+  </p>
+
+</div>
+
+
+<br><br><br>
+    <footer class="container-fluid bg-4 text-center"> 
+              <div class="footer-content">
+                    <p>Privacy Policy</p>
+                    <p>Copyright © Kalakrithi 2017.</p>
+                    <p> All rights reserved.</p>
+            </div>
+
+</footer>
+    <script>
+$(document).ready(function(){
+    $("#dropdown-btn").click(function(){
+        $("#dropdown").fadeToggle();
+    });
+});
+</script>
+</body>
+</html>
